@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="HOM"
-                android:id="@+id/btn_home"
+                android:id="@+id/button_talk_home"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_weight="0.16"/>
@@ -36,37 +36,37 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CHA"
-                android:id="@+id/btn_chat"
+                android:id="@+id/button_talk_chat"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/btn_home"
-                android:layout_toStartOf="@+id/btn_home"
+                android:layout_toLeftOf="@+id/button_talk_home"
+                android:layout_toStartOf="@+id/button_talk_home"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BOA"
-                android:id="@+id/btn_board"
+                android:id="@+id/button_talk_board"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/btn_chat"
-                android:layout_toStartOf="@+id/btn_chat"
+                android:layout_toLeftOf="@+id/button_talk_chat"
+                android:layout_toStartOf="@+id/button_talk_chat"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CAL"
-                android:id="@+id/btn_calendar"
+                android:id="@+id/button_talk_calendar"
                 android:layout_alignParentTop="true"
-                android:layout_toRightOf="@+id/btn_home"
-                android:layout_toEndOf="@+id/btn_home"
+                android:layout_toRightOf="@+id/button_talk_home"
+                android:layout_toEndOf="@+id/button_talk_home"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ACC"
-                android:id="@+id/btn_account"
+                android:id="@+id/button_talk_account"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SET"
-                android:id="@+id/btn_setting"
+                android:id="@+id/button_talk_setting"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="내용 치는 곳"
-            android:id="@+id/ChattingEditText" />
+            android:id="@+id/editText_talk_ChattingEditText" />
     </LinearLayout>
 
 </RelativeLayout>

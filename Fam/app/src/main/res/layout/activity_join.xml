@@ -20,34 +20,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="Name"
             android:ems="10"
-            android:id="@+id/editText_personname"
+            android:id="@+id/editText_join_personname"
             android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText_join_phoneNum"
+            android:layout_gravity="center_horizontal"
+            android:hint="PhoneNumber" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:id="@+id/editText_email"
+            android:id="@+id/editText_join_email"
             android:layout_gravity="center_horizontal"
-            android:text="E-mail" />
+            android:hint="E-mail" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText_password"
+            android:id="@+id/editText_join_password"
             android:layout_gravity="center_horizontal"
-            android:text="Password" />
+            android:hint="Password" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="MAKE ACCOUNT"
-            android:id="@+id/button_makeaccount"
+            android:id="@+id/button_join_makeaccount"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 

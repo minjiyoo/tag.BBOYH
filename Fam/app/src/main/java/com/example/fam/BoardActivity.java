@@ -16,7 +16,7 @@ public class BoardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_board);
 
 
-        btn_board = (Button)findViewById(R.id.btn_board);
+        btn_board = (Button)findViewById(R.id.button_board_board);
         btn_board.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +24,7 @@ public class BoardActivity extends AppCompatActivity {
             }
         });
 
-        btn_calendar = (Button)findViewById(R.id.btn_calendar);
+        btn_calendar = (Button)findViewById(R.id.button_board_calendar);
         btn_calendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +32,7 @@ public class BoardActivity extends AppCompatActivity {
             }
         });
 
-        btn_account = (Button)findViewById(R.id.btn_account);
+        btn_account = (Button)findViewById(R.id.button_board_account);
         btn_account.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +40,7 @@ public class BoardActivity extends AppCompatActivity {
             }
         });
 /**
- btn_set = (Button)findViewById(R.id.btn_setting);
+ btn_set = (Button)findViewById(R.id.button_board_setting);
  btn_set.setOnClickListener(new View.OnClickListener() {
 @Override
 public void onClick(View v) {
@@ -50,7 +50,7 @@ startActivity(new Intent(MainActivity.this, .class));
 
  */
 
-        btn_home = (Button)findViewById(R.id.btn_home);
+        btn_home = (Button)findViewById(R.id.button_board_home);
         btn_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ startActivity(new Intent(MainActivity.this, .class));
             }
         });
 
-        btn_talk = (Button)findViewById(R.id.btn_chat);
+        btn_talk = (Button)findViewById(R.id.button_board_chat);
         btn_talk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

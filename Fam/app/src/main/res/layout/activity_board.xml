@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="HOM"
-                android:id="@+id/btn_home"
+                android:id="@+id/button_board_home"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_weight="0.16"/>
@@ -37,37 +37,37 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CHA"
-                android:id="@+id/btn_chat"
+                android:id="@+id/button_board_chat"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/btn_home"
-                android:layout_toStartOf="@+id/btn_home"
+                android:layout_toLeftOf="@+id/button_board_home"
+                android:layout_toStartOf="@+id/button_board_home"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BOA"
-                android:id="@+id/btn_board"
+                android:id="@+id/button_board_board"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/btn_chat"
-                android:layout_toStartOf="@+id/btn_chat"
+                android:layout_toLeftOf="@+id/button_board_chat"
+                android:layout_toStartOf="@+id/button_board_chat"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CAL"
-                android:id="@+id/btn_calendar"
+                android:id="@+id/button_board_calendar"
                 android:layout_alignParentTop="true"
-                android:layout_toRightOf="@+id/btn_home"
-                android:layout_toEndOf="@+id/btn_home"
+                android:layout_toRightOf="@+id/button_board_home"
+                android:layout_toEndOf="@+id/button_board_home"
                 android:layout_weight="0.16"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ACC"
-                android:id="@+id/btn_account"
+                android:id="@+id/button_board_account"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SET"
-                android:id="@+id/btn_setting"
+                android:id="@+id/button_board_setting"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
